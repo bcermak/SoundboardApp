@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+header h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+header p {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.pads{
+    background: lightblue;
+    width: 100%;
+    display: flex;
+  }
+  
+  .pads > div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+  }
+  
+  .positivePad{
+    background: #60d394;
+  }
+
+  .positivePad p {
+      text-align: center;
+      padding: 35px;
+      font-size: 20px;
+  }
+ 
+  
+  .couragePad{
+    background: #d36060
+  }
+
+  .couragePad p {
+    text-align: center;
+    padding: 35px;
+    font-size: 20px;
+}
+  
+  .pad3{
+    background: #c060d3
+  }
+  
+  .pad4{
+    background: #d3d160
+  }
+  
+  .pad5{
+    background: #6860d3
+  }
+  
+  .pad6{
+    background: #60b2d3
+  }

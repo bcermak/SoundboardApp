@@ -1,5 +1,5 @@
-# GenreSoundboard app by Brandon Cermak
+# MoodSoundboard app by Brandon Cermak
 
 
 
-A simple application that allows users to click different genre-based images to produce sounds from that genre.
+A simple application that allows users to choose simple, mood-based tunes.
