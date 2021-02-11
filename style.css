@@ -3,7 +3,20 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+.app{
+    width: 50vh;
+    height: 50vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-style: solid;
+}
 
 header h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
@@ -11,15 +24,18 @@ header h1 {
 
 header p {
     font-family: 'Montserrat Alternates', sans-serif;
+    padding: 10px;
 }
 
 .pads{
-    background: lightblue;
+    margin-bottom: 10px;
+    text-align: center;
     width: 100%;
-    display: flex;
+    display: block;
   }
   
   .pads > div{
+    margin: 0 auto;
     height: 100px;
     width: 100px;
     flex: 1;
@@ -30,8 +46,7 @@ header p {
   }
 
   .positivePad p {
-      text-align: center;
-      padding: 35px;
+      padding-top: 35%;
       font-size: 20px;
   }
  
@@ -41,23 +56,26 @@ header p {
   }
 
   .couragePad p {
-    text-align: center;
-    padding: 35px;
+    padding-top: 35%;
     font-size: 20px;
 }
   
-  .pad3{
+  .partyPad{
     background: #c060d3
   }
+
+  .partyPad p {
+    padding-top: 35%;
+    font-size: 20px;
+  }
   
-  .pad4{
+  .ponderPad{
     background: #d3d160
   }
-  
-  .pad5{
-    background: #6860d3
+
+  .ponderPad p{
+    padding-top: 35%;
+    font-size: 20px;
   }
   
-  .pad6{
-    background: #60b2d3
-  }
+  
