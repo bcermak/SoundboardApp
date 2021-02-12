@@ -10,3 +10,7 @@ A simple application that allows users to click on pads to play songs. Single-cl
 *[Soundboard App](https://soundboardapp-c9df9.web.app/)*
 
 ![Alt](assets/soundboardapp.JPG)
+
+### Future Development
+* Connect Spotify API to generate different musical choices
+* Expand overall application to 2 or more categories
