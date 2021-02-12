@@ -9,4 +9,4 @@ A simple application that allows users to click on pads to play songs. Single-cl
 ## Deployed Application
 *[Soundboard App](https://soundboardapp-c9df9.web.app/)*
 
-![Alt](assets/soundboardapp.JPG "Title")
+![Alt](assets/soundboardapp.JPG)
