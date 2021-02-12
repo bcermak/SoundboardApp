@@ -1,4 +1,4 @@
-# Simple HTML & Javascript Soundboard App by Brandon Cermak
+# Simple HTML & Javascript Soundboard App 
 
 A simple application that allows users to click on pads to play songs. Single-click and the song plays, double-click and the song stops. 
 
@@ -14,3 +14,5 @@ A simple application that allows users to click on pads to play songs. Single-cl
 ### Future Development
 * Connect Spotify API to generate different musical choices
 * Expand overall application to 2 or more categories
+
+#### Developed by: Brandon Cermak
