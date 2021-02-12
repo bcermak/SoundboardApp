@@ -4,7 +4,12 @@
     box-sizing: border-box;
   }
 
+body {
+  background:steelblue;
+}
+
 .app{
+    background:slategray;
     width: 50vh;
     height: 50vh;
     margin: 0 auto;
@@ -12,6 +17,7 @@
 }
 
 .container{
+  background-color: slategray;
     margin-top: 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -39,20 +45,37 @@ header p {
     height: 100px;
     width: 100px;
     flex: 1;
+    border-style:inset;
+    border-color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+
   }
   
   .positivePad{
     background: #60d394;
+    opacity: 100%;
+  }
+
+  .positivePad :hover{
+   opacity: 50%;
+   color: white;
   }
 
   .positivePad p {
-      padding-top: 35%;
+      padding-top: 30%;
       font-size: 20px;
   }
  
   
   .couragePad{
-    background: #d36060
+    background: #d36060;
+    opacity: 100%;
+  }
+
+  .couragePad :hover{
+    opacity: 50%;
+    color: white;
   }
 
   .couragePad p {
@@ -61,7 +84,13 @@ header p {
 }
   
   .partyPad{
-    background: #c060d3
+    background: #c060d3;
+    opacity: 100%;
+  }
+
+  .partyPad :hover{
+    opacity: 50%;
+    color: white;
   }
 
   .partyPad p {
@@ -70,7 +99,13 @@ header p {
   }
   
   .ponderPad{
-    background: #d3d160
+    background: #d3d160;
+    opacity: 100%;
+  }
+
+  .ponderPad :hover{
+    opacity: 50%;
+    color: white;
   }
 
   .ponderPad p{
