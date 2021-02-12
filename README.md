@@ -1,4 +1,4 @@
-# Simple HTML Sound Board App by Brandon Cermak
+# Simple HTML & Javascript Soundboard App by Brandon Cermak
 
 A simple application that allows users to click on pads to play songs. Single-click and the song plays, double-click and the song stops. 
 
