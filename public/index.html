@@ -6,13 +6,20 @@
     <title>GenreSoundboard App</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,200&family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="app">
+        <div class="jumbotron jumbotron-fluid">
         <div class="container">
+            <h1 class="display-4">Welcome to the Soundboard</h1>
+            <p class="lead"> Tap once to play song, twice to stop it. Happy listening! </p>
+        </div>
+        </div>
+    <div class="app">
+        <div class="soundboard container">
         <header>
-            <h1> Tap for Song </h1>
+            <h3> Tap for Song </h3>
             <p> Play what you're feelin' </p>
         </header>
         <div class="pads">
@@ -33,9 +40,6 @@
                 <audio class="sound" src="./sounds/Trevor Hall - The Lime Tree.mp3"></audio>
             </div>
         </div>
-    </div>
-    <div class="directions">
-        <h4> Single Click = PLAY || Double Click = STOP </h4>
     </div>
     </div>
     

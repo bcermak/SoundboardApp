@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
 
+.jumbotron {
+  text-align: center;
+}
+
 body {
   background:steelblue;
 }
@@ -17,14 +21,14 @@ body {
 }
 
 .container{
-  background-color: slategray;
+    background-color: slategray;
     margin-top: 20px;
     padding: 20px;
     box-sizing: border-box;
     border-style: solid;
 }
 
-header h1 {
+header h3 {
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
@@ -42,8 +46,8 @@ header p {
   
   .pads > div{
     margin: 0 auto;
-    height: 100px;
-    width: 100px;
+    height: 66px;
+    width: 95px;
     flex: 1;
     border-style:inset;
     border-color: black;
@@ -63,8 +67,8 @@ header p {
   }
 
   .positivePad p {
-      padding-top: 30%;
-      font-size: 20px;
+      padding-top: 25%;
+      font-size: 12px;
   }
  
   
@@ -79,8 +83,8 @@ header p {
   }
 
   .couragePad p {
-    padding-top: 35%;
-    font-size: 20px;
+    padding-top: 25%;
+    font-size: 12px;
 }
   
   .partyPad{
@@ -94,8 +98,8 @@ header p {
   }
 
   .partyPad p {
-    padding-top: 35%;
-    font-size: 20px;
+    padding-top: 25%;
+      font-size: 12px;
   }
   
   .ponderPad{
@@ -109,11 +113,15 @@ header p {
   }
 
   .ponderPad p{
-    padding-top: 35%;
-    font-size: 20px;
+    padding-top: 25%;
+    font-size: 12px;
   }
   
   .directions{
     padding-top: 20px;
   }
   
+.soundboard {
+  height: 400px;
+    width: 275;
+}
